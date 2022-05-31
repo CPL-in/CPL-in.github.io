@@ -1,0 +1,86 @@
+html,  body{
+  color; #222;
+}
+
+.carousel img{
+  width: 100%;
+  heirht: 100%;
+}
+
+.btn-primary{
+  background-color: #2E8B57;
+}
+
+.btn-primary:hover{
+  background-color:#006400;
+}
+
+.fun{
+  width: 100%;
+  margin-bottom:2rem;
+  background-color: #F0FFF0;
+}
+
+.social a{
+  font-size: 4.5rem;
+  padding: 5rem;
+}
+
+.bi-facebook{
+  color:#5b5998;
+}
+.bi-twitter{
+  color:#00aced;
+}
+.bi-google{
+  color:#dd4b39;
+}
+.bi-instagram{
+  color:#517fa4;
+}
+.bi-youtube{
+  color:#bb0000;
+}
+
+.bi-facebook:hover{
+  color:#d5d5d5;
+}
+.bi-twitter:hover{
+  color:#d5d5d5;
+}
+.bi-google:hover{
+  color:#d5d5d5;
+}
+.bi-instagram:hover{
+  color:#d5d5d5;
+}
+.bi-youtube:hover{
+  color:#d5d5d5;
+}
+
+footer{
+  background-color:#3f3f3f;
+  color:#d5d5d5;
+  padding-top:2rem;
+}
+
+/*-- background image --*/
+.onepage{
+    height: 250px;
+  }
+.onepage-bg{
+  height: 250px;
+  width:auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+#onepagebg{
+  background-image: url('img/动物地图.png');
+}
+
+#third #third-bg1{
+  background-image: url("img/袋鼠.webp");
+  background-size: cover;
+}
