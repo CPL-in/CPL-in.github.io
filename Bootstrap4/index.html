@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="zh">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Online Zoo</title>
+      	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <!-- 国内 Staticfile CDN 上的 Bootstrap5 核心 CSS 文件 -->
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
+
+  </head>
+  <body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="img/logo.jpg" alt="" width="182" height="52" class="d-inline-block align-text-top"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">主页</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">资讯</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">社区</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">联系我们</a>
+          </li>
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            探索更多
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">线上植物园</a></li>
+            <li><a class="dropdown-item" href="#">线上水族馆</a></li>
+            <li><a class="dropdown-item" href="#">线上萌宠基地</a></li>
+          </ul>
+        </li>
+        </ul>
+      </div>
+      <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+<!-- Image Slider -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/考拉1.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h4>考拉</h4>
+        <p>桉树上的躺赢国宝</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/羊驼1.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h4>羊驼</h4>
+        <p>风靡网络的酷拽神兽</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/水豚.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h4>水豚</h4>
+        <p>爱贴贴的佛系交际花</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/鹈鹕2.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h4>鹈鹕</h4>
+        <p>“万物皆可吞！”</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+<!-- welcome section -->
+<div class="container">
+<div class="onepage">
+  <div class="onepage-bg" id="onepagebg">
+    <br><br>
+     <div class="row text-center">
+      <div class="col-12">
+       <h1 class="display-5">欢迎光临 线上动物园</h1>
+      </div>
+    <br>
+    <br>
+    <br>
+    <div class="col-12">
+      <p class="h5">在这里，你可以云观来自世界各地的神奇动物，全面了解他们的基本信息、生活习性和有趣的特别之处。<br><br>让我们一起踏上探索之旅吧！</p>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<br>
+<div class="col-12 text-center">
+  <audio controls="controls" loop="loop">
+    <source src="audio/Shakira - Try Everything.mp3" type="audio/mp3"></source>
+  </audio>
+</div>
+<br>
+<div class="container">
+  <div class="row text-center">
+    <div class="col-12">
+      <img src="img/爪印1.png">
+    </div>
+  </div>
+</div>
+<br><br>
+</div>
+<!-- 选择专区 -->
+<div  class="container">
+  <div class="row text-center">
+    <div class="col-12">
+      <h1 class="display-6">选择专区</h1>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<div class="container">
+  <div class="row text-center">
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <img src="img/热带雨林.png">
+      <br>
+      <br>
+      <br>
+      <h5>雨林区</h5>
+      <br>
+      <button type="button" class="btn btn-outline-success">逛一逛</button>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <img src="img/草原1.png">
+      <br>
+      <br>
+      <h5>草原区</h5>
+      <br>
+      <button type="button" class="btn btn-outline-success">逛一逛</button>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <img src="img/沙漠.png">
+      <br>
+      <br>
+      <h5>沙漠区</h5>
+      <br>
+      <button type="button" class="btn btn-outline-success">逛一逛</button>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+      <img src="img/水域.png">
+      <br>
+      <br>
+      <h5>水域区</h5>
+      <br>
+      <button type="button" class="btn btn-outline-success">逛一逛</button>
+    </div>
+  </div>
+</div>
+<br>
+<hr class="my-4">
+<br>
+<br>
+
+<!-- 热点赛事 -->
+<div class="container">
+  <div class="row text-center">
+    <div class="col-12">
+      <h1 class="display-6">热点事件</h1>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+      <h2>水豚泡汤比赛！</h2>
+      <p>日本5家动物园昨天依往例举办「谁家水豚泡汤泡最久大对决」，结果由「那须动物王国」一只一岁大的公水豚夺冠，泡汤时间长达1小时44分36秒。</p>
+      <p>这项趣味竞赛今年进入第9届，挑战成员除了那须动物王国，还有石川动物园、崎玉县儿童动物自然公园、伊豆仙人掌动物公园，及长崎BIO PARK，每间动物园推派一只水豚参加。
+        比赛方式是从水豚自己进入露天温泉后，一直到自己离开温泉的时间，看哪只水豚泡最久。</p>
+        <p>夺冠的水豚非常享受泡汤，表情看似很舒服，泡汤时间比第2名足足长了约16分钟。那须动物王国表示，很高兴能夺得首次的3连霸，明年要挑战4连霸。</p>
+     <br>
+     <a herf="#">
+       <button type="button" class="btn btn-outline-success">了解更多</button>
+     </a>
+    </div>
+    <div class="col-lg-6">
+      <img src="img/水豚泡澡.jpg" class="img-fluid">
+  </div>
+</div>
+</div>
+<br><br><br>
+<second id="third">
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6" id="third-bg1">
+    </div>
+    <div class="col-lg-6 content mt-auto" id="content">
+      <h2>小袋鼠成功出逃！</h2>
+      <p>美国田纳西州孟菲斯动物园的一只小袋鼠Honey Bunch在失踪36小时后终于被找到。</p>
+      <p>4月13日，猛烈的洪水和时速超过112公里的大风席卷了孟菲斯市及其周边地区，于是这只小袋鼠被从袋鼠展览中心移走，送往该动物园的动物医院，没想到它却逃走了，最终在动物园的展区后面被发现。</p>
+        <p>孟菲斯动物园发布公告称，4月15日，有人发现一只“流浪的小袋鼠”在动物园彩虹湖附近的服务站游走。动物园在推特上写道:“动物园管理员今天早上发现了新的袋鼠踪迹，
+          于是他们沿着这些踪迹找到了失踪的小袋鼠。目前这只小袋鼠正在医院接受观察，将由高级兽医为它进行检查。</p>
+     <br>
+     <a herf="#">
+       <button type="button" class="btn btn-outline-success">了解更多</button>
+     </a>
+    </div>
+  </div>
+</div>
+</second>
+<br>
+<hr class="my-4">
+<br>
+<br>
+
+<!--趣味活动 -->
+<div class="container">
+  <div class="row text-center">
+    <div class="col-12">
+      <h1 class="display-6">趣味活动</h1>
+    </div>
+  </div>
+</div>
+<br><br>
+<!-- cards -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card">
+        <img class="card-img-top" src="img/卡片1.png">
+        <div class="card-body">
+          <h4 class="card-title text-center">John ball zoo</h4>
+          <p class="card-text text-center">Wizarding Weekends</p>
+          <div class="d-grid gap-2 col-6 mx-auto">
+            <button class="btn btn-primary" type="button">了解更多</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+       <div class="card">
+  <img class="card-img-top" src="img/卡片2.jpg">
+  <div class="card-body">
+    <h4 class="card-title text-center">Perth zoo</h4>
+    <p class="card-text text-center">CUB CLUB</p>
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <button class="btn btn-primary" type="button">了解更多</button>
+    </div>
+   </div>
+   </div>
+   </div>
+    <div class="col-md-4">
+      <div class="card">
+ <img class="card-img-top" src="img/卡片3.png">
+ <div class="card-body">
+   <h4 class="card-title text-center">Singapore zoo</h4>
+   <p class="card-text text-center">幻光雨林之夜</p>
+   <div class="d-grid gap-2 col-6 mx-auto">
+     <button class="btn btn-primary" type="button">了解更多</button>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br><br><br>
+<!-- 点击查看惊喜 -->
+
+<div class="container">
+  <div class="row text-center">
+<p>
+  <button class="fun" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+    戳戳！领取今日份动物表情包~
+  </button>
+</p>
+  <div class="collapse collapse-horizontal" id="collapseWidthExample">
+    <div class="card card-body">
+    <div class="row text-center">
+      <div class="col-sm-6 col-md-3">
+        <img class="gif" src="img/长颈鹿1.gif">
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <img class="gif" src="img/企鹅.gif">
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <img class="gif" src="img/海豹1.gif">
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <img class="gif" src="img/老虎1.gif">
+      </div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<hr class="my-4">
+<br><br>
+<!-- connect -->
+<div class="container-fluid">
+	<div class="row text-center">
+		<div class="col-12">
+			<h1 style>Connect</h1>
+		</div>
+    <br><br>
+		<div class="col-12 social">
+			<a href="#"><i class="fab fa-facebook"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="#"><i class="fab fa-google-plus-g"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-youtube"></i></a>
+		</div>
+	</div>
+</div>
+
+<!-- footer -->
+<br><br><br>
+<footer>
+  <div class="container-fluid">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <img src="img/logo.jpg" width="182" height="49">
+        <hr class="light">
+        <p>666-666-6666</p>
+        <p>email.onlinezoo.com</p>
+        <p>101 Street Name</p>
+        <p>City,State,00000</p>
+      </div>
+      <div class="col-md-4">
+        <br>
+        <h5>Our hours</h5>
+        <hr class="light">
+        <p>Monday:9am-5pm</p>
+        <p>Saturday:10am-4pm</p>
+        <p>Sunday:closed</p>
+      </div>
+      <div class="col-md-4"><br>
+        <h5>Services</h5>
+        <hr class="light">
+        <p>City,State,00000</p>
+        <p>City,State,00000</p>
+        <p>City,State,00000</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- 国内 Staticfile CDN 上的 Bootstrap5 核心 JavaScript 文件 -->
+<script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.min.js"></script>
